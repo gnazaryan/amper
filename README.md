@@ -42,9 +42,9 @@ graph LR
     A2 --> DB;
     A3 --> DB;
 
-    A1 --> DS1[Datastore Node 1];
-    A2 --> DS2[Datastore Node 2];
-    A3 --> DS3[Datastore Node ...];
+    A1 --> DS1["Amper Datastore Node 1 (Go)"];
+    A2 --> DS2["Amper Datastore Node 2 (Go)"];
+    A3 --> DS3["Amper Datastore Node ... (Go)"];
     
     %% Optional: Show more links if desired, e.g.:
     %% A1 --> DS2; A2 --> DS3; A3 --> DS1; 
