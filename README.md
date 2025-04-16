@@ -16,6 +16,34 @@ This repository serves as a detailed showcase of Amper's features and capabiliti
 ---
 
 ## Core Features
+... (Keep Core Features section as before) ...
+    1. Advanced Cloud Drive
+    2. Real-Time Communication Suite
+    3. Dynamic Data Modeling & Management
+    4. User Management
+
+---
+
+## Technology Stack
+
+Amper was built using the following technologies:
+
+* **Frontend:**
+    * Framework/Library: **React**
+    * UI Components: **Material UI (MUI)**
+    * Languages: JavaScript (ES6+), JSX, HTML5, CSS3
+* **Backend:**
+    * Language: **Go (Golang)**
+* **Database:**
+    * **MySQL** (Relational Database)
+* **Communication Layer:**
+    * UI Updates: **Asynchronous UI updates (simulating real-time) via AJAX polling** from the frontend to the backend.
+* **Key Backend Integrations & Libraries:**
+    * Document Processing: **LibreOffice** (invoked by the Go backend for Office document conversions)
+    * Image Processing: **ImageMagick** (integrated via a Go library/wrapper)
+
+
+## Core Features
 
 Amper is built around several key modules designed to work together seamlessly:
 
