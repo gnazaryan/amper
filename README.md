@@ -11,7 +11,7 @@ This repository serves as a detailed showcase of Amper's features and capabiliti
 
 > **Video Showcase:**
 > 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/qJ2LjMnXkBQ/0.jpg)](http://www.youtube.com/watch?v=qJ2LjMnXkBQ "Video Title")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/qJ2LjMnXkBQ/0.jpg)](http://www.youtube.com/watch?v=qJ2LjMnXkBQ "Amper - Web-Based Enterprise Software Platform")
 
 ---
 
