@@ -15,13 +15,56 @@ This repository serves as a detailed showcase of Amper's features and capabiliti
 
 ---
 
+## Architecture & Scalability
+
+Amper is designed with scalability at its core to handle growing data demands for organizations. The architecture separates the application logic from the data storage, enabling independent horizontal scaling:
+
+* **Amper Nodes (Backend Services):** These nodes contain the core application logic, APIs, and business rules (implemented in Go). Multiple Amper nodes can be deployed and load-balanced to handle increasing user traffic and computational load.
+* **Amper Datastore Nodes (Distributed Storage):** Large data objects (like Cloud Drive files, document versions, chat history) are stored in a separate layer of dedicated Datastore nodes. This layer functions as a distributed key-value store.
+    * **Data Distribution:** When data needs to be stored, the Amper backend intelligently selects an available Datastore node. The key assigned to the data implicitly contains information about which Datastore node holds the actual value (the file/data blob).
+    * **Unlimited Storage Scaling:** Administrators can dynamically add more Amper Datastore nodes to the system via a dedicated UI page within Amper (specifying IP address and port). This allows the total storage capacity to scale horizontally and virtually without limit, independent of the application nodes.
+* **Scalability Management:** The Amper application includes administrative UI features for adding and managing both Amper (backend) and Amper Datastore nodes, providing control over the cluster's expansion.
+
+This decoupled architecture ensures that both application performance and data storage capacity can be scaled independently based on specific organizational needs.
+
+```mermaid
+graph LR
+    User[User Browser] --> LB(Load Balancer);
+    LB --> A1["Amper Node 1 (Go)"]; 
+    LB --> A2["Amper Node 2 (Go)"]; 
+    LB --> A3["Amper Node ... (Go)"];
+
+    subgraph Amper Backend Cluster
+        A1; A2; A3;
+    end
+
+    A1 --> DB[(MySQL DB)];
+    A2 --> DB;
+    A3 --> DB;
+
+    A1 --> DS1[Datastore Node 1];
+    A2 --> DS2[Datastore Node 2];
+    A3 --> DS3[Datastore Node ...];
+    
+    %% Optional: Show more links if desired, e.g.:
+    %% A1 --> DS2; A2 --> DS3; A3 --> DS1; 
+
+    subgraph Amper Datastore Cluster
+        DS1; DS2; DS3;
+    end
+
+    style DB fill:#f9f,stroke:#333,stroke-width:2px
+    style DS1 fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style DS2 fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+    style DS3 fill:#ccf,stroke:#333,stroke-width:2px,color:#000
+```
+---
 ## Core Features
-... (Keep Core Features section as before) ...
     1. Advanced Cloud Drive
     2. Real-Time Communication Suite
     3. Dynamic Data Modeling & Management
     4. User Management
-
+    5. Node management with horizontal scaling
 ---
 
 ## Technology Stack
