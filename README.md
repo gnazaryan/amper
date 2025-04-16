@@ -1,4 +1,5 @@
 # Amper - Web-Based Enterprise Software Platform
+# Contact - info.grigor@gmail.com
 
 **Project Status:** Showcase (Source Code Private) | **Development Period:** ~1 Year (Independent)
 
