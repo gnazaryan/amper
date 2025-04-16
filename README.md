@@ -10,6 +10,7 @@ Amper is a comprehensive, web-based enterprise software solution developed over 
 This repository serves as a detailed showcase of Amper's features and capabilities, reflecting the significant development effort undertaken.
 
 > **Video Showcase:**
+> 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/qJ2LjMnXkBQ/0.jpg)](http://www.youtube.com/watch?v=qJ2LjMnXkBQ "Video Title")
 
 ---
