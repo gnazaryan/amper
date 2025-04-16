@@ -164,8 +164,6 @@ Amper includes standard functionalities for managing user access:
 
 * **Backend Database:** MySQL
 * **Architecture:** Web-Based (Accessible via Browser)
-* *(Feel free to add Frontend/Backend languages/frameworks if you wish)*
-
 ---
 
 ## Project Status & Future Vision
