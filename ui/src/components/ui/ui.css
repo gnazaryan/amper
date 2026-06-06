@@ -1,0 +1,46 @@
+.ui {
+	width: 100%;
+	height: 100%;
+}
+
+.north {
+	background-color: #a3d4f7;
+	height: 50px;
+}
+
+.westPassive {
+	border-right: 1px solid #619aeb;
+	width: 50px;
+	float: left;
+	height: 100%;
+    transition: all 1s;
+}
+
+.westActive {
+    border-right: 1px solid #619aeb;
+    width: 200px;
+    float: left;
+    height: 100%;
+    transition: all 1s;
+}
+
+.center {
+    border-left: 1px solid #73A8EB;
+	float: left;
+	width: calc(100% - 200px);
+	height: 100%;
+}
+
+.east {
+		border: 2px solid;
+		border-image-source: linear-gradient(to right, #a3d4f7, #D5EAFA);
+		border-image-slice: 1;
+		width: 60px;
+		float: right;
+		height: calc(100% - 4px);
+}
+
+.middle {
+	height: calc(100% - 50px);
+	display: flex;
+}

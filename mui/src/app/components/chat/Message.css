@@ -1,0 +1,8 @@
+.messageUserName {
+    font-weight: bold;
+}
+
+.messageUserName > span {
+    font-weight: normal;
+    font-size: 12px;
+}

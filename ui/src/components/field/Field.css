@@ -1,0 +1,27 @@
+.fieldMainContainer {
+	margin-left: 10px;
+	font-size: 18px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.field {
+    padding: 0px;
+    border-spacing: 0px;
+	margin-top: 2px;
+	padding-left: 5px;
+	height: 27px;
+	width: 300px;
+	border-radius: 0px;
+	border: 1px solid #619aeb;
+    font-size: 14px;
+}
+
+.fieldRequired {
+    background-color: #c9eaf7;
+}
+
+.fieldLabel {
+	display: inline-block;
+	color: #707172;
+}

@@ -1,0 +1,72 @@
+.gridPanel {
+    border-radius: 5px;
+    height: 100%;
+}
+
+.gridTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.gridTable th {
+    text-align: left;
+    padding: 8px;
+}
+
+.gridTable td {
+    text-align: left;
+    padding: 8px;
+}
+
+.gridTable tr:nth-child(even) {
+    background-color: #ecf2ff;
+}
+
+.tools {
+    height: 20px;
+}
+
+.tools > * {
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.gridToolsItemActive {
+
+}
+
+.gridToolsItemInactive {
+    margin-left: 5px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.gridToolsItemInactive:hover {
+    border-radius: 5px;
+    background-color: #73A8EB;
+}
+
+.gridRowHover {
+    cursor: pointer;
+}
+
+.gridRowHoverSelect {
+    cursor: pointer;
+    background-color: #73A8EB !important;
+}
+
+tr.gridRowHover:hover {
+    background-color: #73A8EB;
+}
+
+.gridTitle {
+     border-bottom: 1px solid #73A8EB;
+     border-radius: 5px;
+     height: 25px;
+     padding-left: 5px;
+     padding-top: 5px;
+     color: white;
+     background-color: #73A8EB;
+ }

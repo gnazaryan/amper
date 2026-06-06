@@ -1,0 +1,135 @@
+.menu {
+    position: relative;
+    white-space: nowrap;
+    min-height: 50px;
+    background-color: #73A8EB;
+    display: flex;
+    flex-direction: row;
+ }
+
+.logoActuatorActive {
+    min-height: 50px;
+    width: 180px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: #619aeb;
+    transition: all 1s;
+}
+
+.logoActuatorPassive {
+    min-height: 50px;
+    width: 40px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #619aeb;
+    transition: all 1s;
+}
+
+.logoActuatorPassive:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.logoActuatorActive:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.loginDropdownIcon {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+
+.profilePictureIcon {
+    position: absolute;
+    right: 22px;
+    top: 10px;
+}
+
+.logedInUserName {
+    position: absolute;
+    right: 55px;
+    top: 15px;
+}
+
+.menuUserLoginSection {
+    cursor: pointer;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.loginProfileMenu {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.19) !important;
+    border: 1px solid white;
+    background-color: white;
+    right: 5px;
+    top: 48px;
+}
+
+.userFullName {
+    text-align: center;
+    margin-top: 3px;
+    color: black;
+}
+
+.logOutButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.menuUserLoginSection:hover {
+    background-color: #619aeb;
+}
+
+.menuUserLoginSection:active {
+    border: 1px solid #b0d0eb;
+    border-radius: 10px;
+    height: 38px;
+    width: 58px;
+}
+
+.menuLeftSectionActive {
+    min-height: 50px;
+    width: 200px;
+    transition: all 1s;
+}
+
+.menuLeftSectionPassive {
+    min-height: 50px;
+    width: 200px;
+    margin-left: -50px;
+    transition: all 1s;
+}
+
+.menuActuator {
+    border-radius: 50%;
+    font-size: 35px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+.menuActuator:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

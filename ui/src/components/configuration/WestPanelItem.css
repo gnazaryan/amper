@@ -1,0 +1,22 @@
+.westPanelItemActive {
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+.westPanelItemActive:hover {
+    color: white;
+}
+.westPanelItemInactive:hover {
+    color: white;
+}
+.westPanelItemInactive {
+    background-color: white;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}

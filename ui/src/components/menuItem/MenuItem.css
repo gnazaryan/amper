@@ -1,0 +1,33 @@
+.menuItem {
+  height: 95%;
+  width: 200px;
+  background-color: white;
+  color: #a3d4f7;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 0px;
+	border-image-slice: 0;
+  border-right: 1px solid #cccccc;
+  outline: none;
+}
+
+.menuItemClicked {
+  height: 95%;
+  width: 200px;
+  background-color: white;
+  color: #a3d4f7;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 0px;
+	border-image-slice: 0;
+  border-right: 1px solid #cccccc;
+  outline: none;
+}
+
+.menuItem:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.menuItem:active {
+    display: inline-block
+}

@@ -1,0 +1,47 @@
+
+.chatRightPanel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.chatLeftChannelPanel {
+    border: 1px solid #99c4fb7b;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.groupTagLabel {
+    position: absolute;
+    left: 25px;
+    top: -10px;
+    color: #2196f3;
+    background-color: white;
+    z-index: 1000;
+}
+
+.newMessagePanel {
+    text-align: right;
+}
+
+.chatContent {
+}
+
+.chatOuterContent {
+    
+}
+
+.chatInnerContent {
+    overflow-y: auto;
+    border: 1px solid #99c4fb7b;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.chatMainPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}

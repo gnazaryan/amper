@@ -1,0 +1,30 @@
+.formPanel {
+    border-radius: 5px;
+    height: calc(100% - 35px);
+}
+
+.tablePanel {
+}
+
+table.tablePanel td {
+    padding-bottom: 10px;
+}
+
+.formTitle {
+    border-bottom: 1px solid #619aeb;
+    height: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: white;
+    background-color: #619aeb;
+}
+
+.formPanelError {
+    color: #ff001a;
+    font-size: 10px;
+    text-align: right;
+}
+
+.formPanelColumn {
+    width: 300px;
+}

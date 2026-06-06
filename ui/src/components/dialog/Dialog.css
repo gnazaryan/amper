@@ -1,0 +1,44 @@
+.amperDialog {
+    position: absolute;
+    position: fixed;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.19) !important;
+    background-color: white;
+}
+
+.amperDialogTitle {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 28px;
+    color: white;
+    background-color: #73A8EB;
+}
+
+.amperDialogTitleContainer {
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.amperDialogCloseContainer {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+
+.amperDialogCloseContainer:hover {
+    background-color: #619aeb;
+}
+
+.amperDialogCloseContainer:active {
+    background-color: #4f76eb;
+}
+
+.amperDialogContent {
+
+}
+
+.amperDialogBottomBar {
+    height: 38px;
+}

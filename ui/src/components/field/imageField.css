@@ -1,0 +1,18 @@
+.profileImage {
+    background-color: #73A8EB;
+    border-radius: 25%;
+}
+
+.imageField {
+    border: 0px;
+}
+
+.imageFieldMainContainer {
+    margin-left: 10px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.chooseImageInput {
+    display: none;
+}

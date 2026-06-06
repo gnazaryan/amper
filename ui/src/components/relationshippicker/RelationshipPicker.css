@@ -1,0 +1,57 @@
+.relationshipPanel {
+    border: 1px solid white;
+    height: 100%;
+    display: flex;
+    border-radius: 5px;
+}
+
+.relationshipPanelToolBar {
+    border-radius: 5px;
+    height: 30px;
+    margin: 10px;
+}
+
+.relationshipPanelContent {
+    border: 1px solid #619aeb;
+    border-radius: 5px;
+    height: calc(100% - 60px);
+    margin: 10px;
+}
+
+.relationshipParentPanel {
+    border: 1px solid #619aeb;
+    height: calc(100% - 40px);
+    width: 50%;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.relationshipChildPanel {
+    border: 1px solid #619aeb;
+    height: calc(100% - 40px);
+    width: 50%;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.relationshipPanelToolBarItemInactive {
+    margin-left: 5px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.relationshipPanelToolBarItemInactive:hover {
+    border-radius: 5px;
+    background-color: #73A8EB;
+}
+
+.tools {
+    height: 20px;
+}
+
+.tools > * {
+    display:inline-block;
+    vertical-align:middle;
+}

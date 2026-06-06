@@ -1,0 +1,53 @@
+.westPanelChildItemActive {
+    color: Black;
+    height: 25px;
+    line-height: 25px;
+    width: calc(100% - 35px);
+    vertical-align: middle;
+    display: inline-block;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background-color: rgba(99, 172, 255, 0.2);
+    border-bottom-right-radius: 75px;
+    border-top-right-radius: 75px;
+    margin-left: 25px;
+}
+.westPanelChildItemIcon {
+    vertical-align: middle;
+}
+
+.westPanelChildItemActive:hover {
+    background-color: rgba(99, 172, 255, 0.2);
+    border-bottom-right-radius: 75px;
+    border-top-right-radius: 75px;
+    color: black;
+    margin-left: 25px;
+}
+.westPanelChildItemInactive:hover {
+    background-color: rgba(99, 172, 255, 0.2);
+    border-bottom-right-radius: 75px;
+    border-top-right-radius: 75px;
+    color: black;
+    margin-left: 25px;
+}
+.westPanelChildItemInactive {
+    color: Black;
+    height: 25px;
+    line-height: 25px;
+    width: calc(100% - 35px);
+    vertical-align: middle;
+    display: inline-block;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.westPanelChildItemLabel {
+    margin-left: 10px;
+}
+.westPanelChildItemArrow {
+    margin-left: 10px;
+}

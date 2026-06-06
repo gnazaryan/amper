@@ -1,0 +1,75 @@
+.tabPanleTitle {
+    border-bottom: 1px solid #619aeb;
+    height: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: white;
+    background-color: #619aeb;
+}
+
+.tabPanel {
+    border: 1px solid #619aeb;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.tabs {
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border: 1px solid #619aeb;
+    background-color: #73A8EB;
+    color: white;
+}
+
+.tabPanelContent {
+   height: calc(100% - 50px);
+}
+.tabContent {
+    margin-left: 20px;
+    height: calc(100%);
+}
+
+.tabItem {
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.tabItemActive {
+    background-color: white;
+    color: #73A8EB;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.tabItem:hover {
+    background-color: white;
+    color: #73A8EB;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.intermediateItem {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.tabsCenter {
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.checkBoxFieldMainContainer {
+	margin-left: 10px;
+	font-size: 18px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.checkBoxField {
+    padding: 0px;
+    border-spacing: 0px;
+    margin: 0px 0px 0px 0px;
+    margin-top: 2px;
+    height: 23px;
+    border-radius: 0px;
+    border: 1px solid #619aeb;
+    font-size: 14px;
+}
+
+.checkBoxFieldLabel {
+    display: inline-block;
+    color: #707172;
+}

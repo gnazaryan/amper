@@ -1,0 +1,1 @@
+Please verify and set new password for accessing the Amper application with the following link <a href="{{.Data.ButtonHref}}" style="color:#73A8EB;text-decoration:none">{{.Data.ButtonLabel}}</a>

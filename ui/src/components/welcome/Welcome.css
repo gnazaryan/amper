@@ -1,0 +1,13 @@
+.welcomeMainContainer {
+    margin-bottom: 20px;
+}
+
+.welcomeTextContainer {
+	white-space: nowrap;
+	font-size: 32px;
+	color: #707172;
+    display:inline-block;
+    *display:inline;/* For IE7 */
+    vertical-align:top;
+    margin-left: 10px;
+}

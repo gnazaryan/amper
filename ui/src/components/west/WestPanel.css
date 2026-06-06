@@ -1,0 +1,11 @@
+.westPanel {
+    margin-top: 5px;
+}
+
+.section {
+    border-bottom: 2px solid #619aeb;
+    font-size: 12px;
+    width: 40px;
+    display: block;
+    color: #619aeb;
+}

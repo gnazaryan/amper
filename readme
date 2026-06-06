@@ -1,0 +1,96 @@
+#Below are the packages and external libs to install and get before running
+
+go install amper/auth/authorization
+go install amper/api/controller
+go install amper/common/util
+go install amper/service/business
+go install amper/cache/database
+go install amper/common/crypto
+go install amper/cache/business
+go install amper/common/types
+go install amper/common/argument
+go install amper/properties/application
+go install amper/common/notification
+
+go get github.com/emersion/go-imap
+go get github.com/emersion/go-imap/client
+
+go get github.com/magiconair/properties
+go get github.com/go-sql-driver/mysql
+go get gopkg.in/mail.v2
+go get github.com/rs/cors
+/*no need go get github.com/adrium/goheif*/
+go get github.com/strukturag/libheif/go/heif
+go get golang.org/x/image/tiff	
+go get golang.org/x/image/bmp
+go get golang.org/x/image/webp
+go get gopkg.in/gographics/imagick.v3/imagick
+
+/* [Not needed any more - use image magic instead] Install Heif as below, for windows config check out link https://github.com/strukturag/libheif 
+brew install automake make pkg-config x265 libde265 libjpeg libtool ldconfig
+brew install libconfig
+go to lib folder
+cd /Users/grigornazaryan/go/pkg/mod/github.com/strukturag/libheif@v1.15.1
+give permissions
+chmod +x ./autogen.sh
+chmod 777 ./
+
+sudo ./autogen.sh --force
+
+sudo ./configure
+sudo make
+sudo make install
+ ----------------------------------------------------------------------------------------------- */
+
+/* Install imagemagic*/
+
+//For MAC OS 86x64 arch based chips use
+brew install imagemagick
+
+
+
+//For MAC OS arm64 arch based chips clone the repository, compile and install from sources more infor https://imagemagick.org/script/install-source.php
+//First install libjpeg
+brew install automake make pkg-config libjpeg
+//Then follow the instructions on the last raws of the installation completion logs and add exports to .zprofile file like below for my case, this will enable imagmagic to find the libjpeg library
+export LDFLAGS="-L/opt/homebrew/opt/jpeg/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/jpeg/include"
+
+//Then install libheif
+brew install automake make pkg-config libheif
+
+//After this only run below to configure, make and install imagmagic, so that it will contain all heic, jpeg, png deligates
+$ git clone https://github.com/ImageMagick/ImageMagick.git ImageMagick-7.1.1
+
+$ cd ImageMagick-7.1.1
+
+//jxl was causing errors on make, so I disabled it
+$ ./configure --with-jxl=no
+
+$ make 
+$ sudo make install 
+
+brew install pkg-config
+
+add below line into .zshrc
+export CGO_CFLAGS_ALLOW="-Xpreprocessor"
+
+run in terminal below 
+go get gopkg.in/gographics/imagick.v3/imagick
+
+/* Alternatively try Install imagemagic following https://github.com/gographics/imagick/tree/v3.4.2*/
+sudo port install ImageMagick
+/* ----------------------------------------------------------------------------------------------- */
+
+/*
+* Install NVM from https://nodejs.org/en/download/package-manager
+* nvm install 17.0.0
+*  
+*/
+
+/*
+* On macos after installing mysql, if not able to start it, on the configuration uncheck the Keyring data file 
+* checkbox then apply and start again
+*/
+
+/* Use the database.sql in (properties/database/database.sql) to create the system managed database tables*/

@@ -1,0 +1,13 @@
+.objectFieldsContainer {
+    margin: 10px;
+    height: calc(100% - 20px);
+}
+
+.objectFieldsTable th {
+    width: 150px;
+    text-align: left;
+}
+
+.objectFieldsTable td {
+    padding-top: 10px;
+}

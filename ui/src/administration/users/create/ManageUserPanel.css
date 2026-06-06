@@ -1,0 +1,6 @@
+.createUserPanel {
+    margin: 10px;
+    border: 1px solid #619aeb;
+    border-radius: 5px;
+    height: calc(100% - 20px);
+}

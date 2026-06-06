@@ -1,0 +1,100 @@
+.loadingMainContainer {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.19) !important;
+    text-align: center;
+    background-color: #87ceeb;
+    opacity: 0.7;
+    color: white;
+    z-index: 9999999 !important;
+}
+
+.parentMask {
+    background-color: rgba(115, 168, 235, 0.5);
+    position: absolute;
+    opacity: 0.5;
+}
+
+.upperCloudLoading {
+    font-size: 25px;
+    position: absolute;
+    top: -7px;
+    left: 20px;
+}
+
+.lowerCloudLoading {
+    height: 25px;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    left: 40px;
+}
+
+.sunLoading {
+    height: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    color: #ffde3b;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.houseLoading {
+    height: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.treeLoading {
+    height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+}
+
+.tree1Loading {
+    height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 11px;
+    left: 49px;
+}
+
+.tree2Loading {
+    height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 13px;
+    left: 60px;
+}
+
+.cactusLoading {
+    height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: 80px;
+}
+
+.pleaseWaitLoading {
+    font-size: 14px;
+    position: absolute;
+    color: white;
+    top: 21px;
+    left: 11px;
+}

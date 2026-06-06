@@ -1,0 +1,48 @@
+.westPanelItemActive {
+    color: Black;
+    height: 25px;
+    line-height: 25px;
+    width: calc(100% - 10px);
+    vertical-align: middle;
+    display: inline-block;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background-color: rgba(99, 172, 255, 0.2);
+    border-bottom-right-radius: 75px;
+    border-top-right-radius: 75px;
+}
+.westPanelItemIcon {
+    vertical-align: middle;
+}
+.westPanelItemActive:hover {
+    background-color: rgba(99, 172, 255, 0.2);
+    border-bottom-right-radius: 75px;
+    border-top-right-radius: 75px;
+    color: black;
+}
+.westPanelItemInactive:hover {
+    background-color: rgba(99, 172, 255, 0.2);
+    border-bottom-right-radius: 75px;
+    border-top-right-radius: 75px;
+    color: black;
+}
+.westPanelItemInactive {
+    color: Black;
+    height: 25px;
+    line-height: 25px;
+    width: calc(100% - 10px);
+    vertical-align: middle;
+    display: inline-block;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.westPanelItemLabel {
+    margin-left: 10px;
+}
+.westPanelItemArrow {
+    margin-left: 10px;
+}
